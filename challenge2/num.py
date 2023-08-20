@@ -1,5 +1,9 @@
 #  Write intergers
 # take three intergers as argunments
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
 def integers(a, b, c):
     count = 0
     if a > 0:
@@ -10,7 +14,6 @@ def integers(a, b, c):
         count +=1
     return count == 2
 
-print(integers(2, 4, -3))
-print (integers(-4, 6, 8))
-print (integers(-4, 6, 0))
+result = integers(a, b, c)
+print(f"Only two numbers are positive: {result}")
    
