@@ -1,3 +1,4 @@
+# Calculate the absolute value of a charater by subtracting lowercase char
 def  get_constant_value(element):
     return ord(element) - ord("a") + 1
 
@@ -18,3 +19,4 @@ def high_constant_value(s):
 string = input("Enter a string in lowercase: ")
 result = high_constant_value(string)
 print(f"The highest value substring is: {result}")
+
